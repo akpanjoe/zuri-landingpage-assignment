@@ -1,0 +1,179 @@
+html{
+    min-height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Averta', sans-serif;
+}
+header{
+    background-color: rgba(230, 224, 224,0.5);
+    padding: 25%;
+}
+header a{
+    text-decoration: none;
+    color: rgb(226, 29, 29);
+}
+.header-grid{
+    width: 100%;
+  margin-top: -39%;
+   display: grid;
+   place-items: center;
+   text-align: center;
+}
+.header-p{
+   line-height: 1.5em;
+   font-size: 0.9em;
+}
+#header-btn{
+    display: flex;
+    gap: 2em;
+    flex-wrap: nowrap;
+}
+button{
+    cursor: pointer;
+    padding: 0.9em 3em 0.9em 3em;
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+#top-btn{
+    border: 1px solid rgb(226, 29, 29);
+    background-color: rgb(226, 29, 29);
+    color: #fff;
+}
+#top-btn:hover{
+    background-color: #fff;
+    color: rgb(226, 29, 29);
+}
+#bottom-btn{
+    border: 1px solid rgb(226, 29, 29);
+    background-color: #fff;
+    color:rgb(226, 29, 29);
+}
+#bottom-btn:hover{
+    background-color: rgb(226, 29, 29);
+    color: #fff;
+}
+.main{
+    width: 100%;
+    margin-top: 3em;
+    display: grid;
+    place-items: center;
+    padding: 5%;
+}
+#main-p{
+    font-size: 0.8em;
+    color: rgb(226, 29, 29);
+}
+.main-p{
+    font-size: 1.3em;
+    line-height: 1.7em;
+}
+.main a{
+    text-decoration: none;
+    color: rgb(226, 29, 29);
+}
+.main-head{
+    padding-left: 33%;
+    padding-right: 33%;
+    display: grid;
+    text-align: center;
+   
+}
+.programs{
+    display: flex;
+    gap: 2em;
+    flex-wrap: nowrap;
+}
+.zuri-training, .zuri-internship, .zuri-talent{
+    background-color: rgba(230, 224, 224,0.5);
+    padding: 40px;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+footer{
+    margin-top: 4em;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+    padding: 5em;
+    flex-wrap: nowrap;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(226, 29, 29);
+
+}
+footer a:hover{
+    color: rgb(231, 86, 86);
+}
+footer
+.contact-icons img{
+   width: 1em;
+}
+#footer-box1, #footer-box2, #footer-box3{
+    display: flex;
+    flex-direction: column;
+}
+#footer-box2{
+    font-size: 0.9em;
+}
+#hr{
+   padding-left: 60px;
+   padding-right: 60px;
+}
+hr{
+    border: 1px solid rgb(185, 184, 184);
+    background-color: rgb(185, 184, 184);
+}
+#footer-credit{
+    margin-top: 2em;
+    display: grid;
+    place-items: center;
+    margin-bottom: 6em;
+}
+@media only screen and (max-width:500px){
+    .main{
+        width: 100%;
+        margin: auto;
+    }
+    .header-grid h1, .header-p{
+        width: 140%;
+    }
+    .main-head{
+        width: 140%;
+    }
+    #header-btn{
+        flex-wrap: wrap;
+    }
+    .programs{
+        flex-wrap: wrap;
+    }
+    footer{
+        width: 100%;
+      }
+    .footer-flex{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:375px) {
+    .header-grid h1, .header-p{
+        width: 150%;
+    }
+    .main-head{
+        width: 140%;
+    }
+    #header-btn{
+        flex-wrap: wrap;
+    }
+    .programs{
+        flex-wrap: wrap;
+    }
+    .footer-flex{
+        flex-wrap: wrap;
+    }
+}
+
